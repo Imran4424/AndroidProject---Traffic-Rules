@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAIN  MENU"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:id="@+id/back"
+        android:onClick="menuPage"
+        android:background="@drawable/buttonshape"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/stop"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp" />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="STOP"
+
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/giveway"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp" />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="GIVE WAY"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/noentry"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp" />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="NO ENTRY"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/straight"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp" />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="STRAIGHT PROHIBITED"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/oneway"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp" />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="ONE WAY PROHIBITED"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/both"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp" />
+                <Button
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="BOTH WAY PROHIBITED"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/horn"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp" />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="HORN PROHIBITED"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/pedestrian"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"  />
+
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="PEDESTRIAN PROHIBITED" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/cycle"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp" />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="CYCLE PROHIBITED"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/right"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"  />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="RIGHT TURN PROHIBITED"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/left"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"  />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="LEFT PROHIBITED"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/uturn"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"  />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="U TURN PROHIBITED"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/overtake"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"  />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="OVERTAKING PROHIBITED"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/noparking"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"  />
+                <Button
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:text="NO PARKING"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
